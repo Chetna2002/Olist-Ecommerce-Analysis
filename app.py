@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(
-    page_title="Olist Executive Sales Dashboard", page_icon="📈", layout="wide"
+    page_title="  Olist Executive Sales Dashboard", page_icon="📈", layout="wide"
 )
 
 
