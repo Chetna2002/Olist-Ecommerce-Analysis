@@ -109,7 +109,7 @@ aov = total_rev / total_orders if total_orders else 0
 avg_review = filtered_df["review_score"].mean()
 delay_rate = (filtered_df["is_delayed"].mean()) * 100
 
-kpi1.metric("Gross Revenue", f"R$ {total_rev:,.2f}")
+kpi1.metric("Gross Revenue", f"R$ {total_rev / 1e6:.2f}M")
 kpi2.metric("Delivered Orders", f"{total_orders:,}")
 kpi3.metric("Avg Order Value (AOV)", f"R$ {aov:,.2f}")
 kpi4.metric(
